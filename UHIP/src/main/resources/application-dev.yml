@@ -1,0 +1,22 @@
+#Port cfg
+server:
+  port: 7575
+ 
+spring:
+  mvc:
+    view:
+      prefix: WEB-INF/views/
+      suffix: .jsp
+      
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.Oracle10gDialect
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: UHIP_NEW_DEV
+    password: UHIP_NEW_DEV 
