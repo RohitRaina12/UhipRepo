@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class ArController {
-	@RequestMapping(value= {"/"}, method=RequestMethod.GET)
+	@RequestMapping(value= {"/regForm"}, method=RequestMethod.GET)
 	public String displayRegForm() {
 		
 		return "form";
