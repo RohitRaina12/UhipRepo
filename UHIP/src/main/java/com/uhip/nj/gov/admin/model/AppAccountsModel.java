@@ -1,7 +1,5 @@
 package com.uhip.nj.gov.admin.model;
 
-
-
 import lombok.Data;
 
 @Data

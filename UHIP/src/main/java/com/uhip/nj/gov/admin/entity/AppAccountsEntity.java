@@ -24,7 +24,7 @@ public class AppAccountsEntity {
 			
 	@GeneratedValue(generator="accId_gen",strategy=GenerationType.SEQUENCE)
 	@Column(name="ACCOUNT_ID")
-	private int accId;
+	private Integer accId;
 	
 	@Column(name="FIRST_NAME")
 	private String firstName;
